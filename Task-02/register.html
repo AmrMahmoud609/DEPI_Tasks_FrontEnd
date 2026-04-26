@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title></head>
+<body bgcolor="#f0a0a0">
+
+<center>
+<table border="1" width="500" bgcolor="#d88080">
+  <tr>
+    <td>First Name</td>
+    <td><input type="text" name="firstname"></td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td><input type="text" name="lastname"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password" name="password"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Gender</b></td>
+    <td>
+      <input type="radio" name="gender" value="male"> Male <br>
+      <input type="radio" name="gender" value="female"> Female
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Birthday:
+      <select name="month">
+        <option>[Select a Month]</option>
+        <option>January</option><option>February</option><option>March</option>
+        <option>April</option><option>May</option><option>June</option>
+        <option>July</option><option>August</option><option>September</option>
+        <option>October</option><option>November</option><option>December</option>
+      </select>
+      <input type="text" name="day" size="2" placeholder="dd">
+      <input type="text" name="year" size="4" placeholder="yyyy">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b><u>Interests</u></b></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="sports"> Sports</td>
+    <td><input type="checkbox" name="interest" value="music"> Music</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="books"> Books</td>
+    <td><input type="checkbox" name="interest" value="computer"> Computer Stuff</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="interest" value="fashion"> Fashion</td>
+    <td><input type="checkbox" name="interest" value="movies"> Movies</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+  </tr>
+</table>
+</center>
+
+</body>
+</html>
